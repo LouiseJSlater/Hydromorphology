@@ -17,6 +17,10 @@
 # 1. Select hydrologic regions 
 # 2. Go to 'retrieve measurement data for selected sites' - input date range, then select 'tab-separated data YYYY-MM-DD with channel information, save to compressed file' and hit submit. 
 # Extract the data into local data folder. This can take a while depending on data volume and internet connection.
+# Rename that file "1_measurements"
+
+# The site description file can be downloaded from the same page: select "Site-description information displayed in tab-separated format, saved to file. Highlight all fields, then click submit. 
+# Rename that file "1_sitedesc"
 
 # Clean R before running the code
 rm(list=ls(all=TRUE));cat('\014') 
