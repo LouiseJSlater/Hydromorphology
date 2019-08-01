@@ -5,7 +5,7 @@ In the _code_ folder you will find two R scripts:
 
 **1. Import, prepare and output data**
 
-This code imports US Geological Survey (USGS) historical transect (spot gauging) channel measurements (downloaded from the USGS National Water Information System, NWIS). It then filters the data, and creates new time series variables that represent channel conveyance capacity (m3/s), cross-sectional flow area (m2), cross-sectional mean streamflow velocity (m/s), channel width (m), and channel riverbed elevation (m), for further analysis. 
+This code imports US Geological Survey (USGS) historical transect (spot gauging) channel measurements (downloaded from the USGS National Water Information System, NWIS). It then filters the data, and creates new time series variables that represent channel conveyance capacity (m3/s), cross-sectional flow area (m2), cross-sectional mean streamflow velocity (m/s), channel width (m), and channel riverbed elevation (m), for further analysis. Several sites are provided as examples (not from a research paper).
 
 **2. Plot data**
 
